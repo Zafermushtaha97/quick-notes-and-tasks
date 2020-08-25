@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar></Navbar><br><br>
+    <TodoCard></TodoCard>
+   
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Navbar from '@/components/Navbar'
+import TodoCard from '@/components/TodoCard'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    Navbar,
+    TodoCard
+
   }
 }
 </script>
+<style  scoped>
+.home{
+    background: radial-gradient(#00205b, transparent) !important;
+height: 100%;
+}
+</style>

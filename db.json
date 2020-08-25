@@ -1,0 +1,144 @@
+{
+  "notes": [
+    {
+      "id": 2,
+      "title": "instruction set",
+      "description": "scale turn-key platforms",
+      "status": false,
+	"duedate": "1/24/2020"
+    },
+    {
+      "id": 5,
+      "title": "secondary",
+      "description": "cultivate cutting-edge communities",
+      "status": false,
+ 	"duedate": "5/26/2020"
+	
+    },
+    {
+      "id": 6,
+      "title": "optimal",
+      "description": "expedite enterprise applications",
+      "status": false,
+  "duedate": "9/1/2019"
+
+    },
+    {
+      "id": 7,
+      "title": "actuating",
+      "description": "enhance sexy vortals",
+      "status": false,
+  "duedate": "7/8/2020"
+
+    },
+    {
+      "id": 9,
+      "title": "Organized",
+      "description": "incubate B2B experiences",
+      "status": false,
+  "duedate": "1/30/2020"
+
+    },
+    {
+      "id": 10,
+      "title": "infrastructure",
+      "description": "envisioneer global applications",
+      "status": false,
+  "duedate": "8/19/2020"
+
+    },
+    {
+      "id": 11,
+      "title": "Cloned",
+      "description": "incubate seamless technologies",
+      "status": false,
+  "duedate": "4/2/2020"
+
+    },
+    {
+      "id": 12,
+      "title": "Implemented",
+      "description": "reintermediate synergistic metrics",
+      "status": false,
+  "duedate": "2/16/2020"
+
+    },
+    {
+      "id": 13,
+      "title": "Up-sized",
+      "description": "evolve wireless e-markets",
+      "status": true,
+  "duedate": "11/30/2019"
+    },
+    {
+      "id": 14,
+      "title": "complexity",
+      "description": "leverage enterprise solutions",
+      "status": false,
+  "duedate": "11/7/2019"
+
+    },
+    {
+      "id": 15,
+      "title": "regional",
+      "description": "enhance leading-edge applications",
+      "status": false,
+  "duedate": "1/27/2020"
+
+    },
+    {
+      "id": 16,
+      "title": "Decentralized",
+      "description": "morph world-class technologies",
+      "status": false,
+  "duedate": "7/29/2020"
+
+    },
+    {
+      "id": 17,
+      "title": "standardization",
+      "description": "embrace turn-key initiatives",
+      "status": false,
+  "duedate": "5/3/2020"
+
+    },
+    {
+      "id": 19,
+      "title": "knowledge base",
+      "description": "engage interactive web services",
+      "status": true,
+  "duedate": "5/11/2020"
+
+    },
+    {
+      "title": "afaf/",
+      "description": "tesadvmadlvmadtesadvmadlvmad",
+      "status": true,
+      "id": 22,
+  "duedate": "2/22/2020"
+
+    },
+    {
+      "title": "as fafa",
+      "description": "vaevavava",
+      "status": false,
+      "id": 23,
+  "duedate": "5/11/2020"
+
+    },
+    {
+      "title": "adasascas",
+      "description": "asvcadvadvadvadvad",
+      "status": "completed",
+      "duedate": "24/08/2020",
+      "id": 24
+    },
+    {
+      "title": "aggvavae",
+      "description": "aggvavae aggvavae aggvavae aggvavae aggvavae",
+      "status": "true",
+      "duedate": "25/08/2020",
+      "id": 25
+    }
+  ]
+}
