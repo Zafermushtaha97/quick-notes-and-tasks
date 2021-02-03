@@ -14,24 +14,19 @@ export default new Vuex.Store({
   },
   actions: {
     loadnotes({commit ,state}){
-     axios.get(`http://localhost:3000/notes/`).then((response)=>{
-        state.notes = response.data
+     axios.get(`https://raw.githubusercontent.com/Zafermushtaha97/data-serve/master/db.json`).then((response)=>{
+        state.notes = response.data.notes
         commit('Loadnotes',state.notes)
       })
     },
     deletenote({commit,state},payload){
-      axios.delete(`http://localhost:3000/notes/${payload}`).then(() =>{
         commit('Loadnotes',state.notes.filter(note => note.id != payload))
-
-      })
     },
     addnote({commit,state},payload){
-      axios.post(`http://localhost:3000/notes/`,payload).then(()=>{
         commit('Loadnotes',state.notes.concat(payload))
-      })
     },
     togglestatus({commit,state},payload){
-      axios.patch(`http://localhost:3000/notes/${payload.id}`,
+      axios.patch(`https://raw.githubusercontent.com/Zafermushtaha97/data-serve/master/db.json${payload.id}`,
       {
         "title":payload.title,
         "description":payload.description,
